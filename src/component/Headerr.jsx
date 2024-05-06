@@ -6,7 +6,7 @@ const Headerr = () => {
     <nav>
         <div className=' navbar_bg'>
             <div className=''>
-                <ul className='list-unstyled d-flex gap-3 align-items-center m-0'>
+                <ul className='list-unstyled d-flex gap-3 align-items-center m-0 '>
                     <li className='m-0 p-0'>
                         <span className=''><a href="#home">Home</a></span>
                     </li>
