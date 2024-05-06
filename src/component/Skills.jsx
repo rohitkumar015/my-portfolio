@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="mt-5 d-flex justify-content-center">
+    <section className="mt-5 d-flex justify-content-center" id="skills">
       <div className="max_width">
         <h2 className="primary_text_clr text-center mb-4">My Skills</h2>
         <div className="mt-3 d-flex justify-content-center gap-3 flex-wrap">
@@ -12,6 +12,7 @@ const Skills = () => {
 
            
             <span className="text-capitalize skills_item">JavaScript</span>
+            <span className="text-capitalize skills_item">Bootstrap</span>
             <span className="text-capitalize skills_item">React</span>
             <span className="text-capitalize skills_item">Angular</span>
             {/* <span className="text-capitalize skills_item">Git Hub</span> */}

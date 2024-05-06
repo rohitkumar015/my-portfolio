@@ -1,8 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
@@ -33,7 +34,10 @@ span{
 p{
   font-size: .875rem;
 }
-
+h1{
+  font-size: 2.05rem;
+  line-height: 2.5rem;
+}
 .body_css{
   padding-top: 7rem; ;
 }
@@ -68,8 +72,11 @@ p{
   padding: 10px 12px;
   align-items: center;
   /* gap: 20px; */
+  z-index: 99;
 }
-.navbar_bg ul li span{
+.navbar_bg ul li a{
+  text-decoration: none;
+  font-size: .875rem;
   color: var(--secondary-text-color);
   transition: all .3s linear ;
   -webkit-transition: all .3s linear ;
@@ -106,9 +113,13 @@ p{
   color: var(--secondary-text-color);
   font-weight: 600;
   font-size: 1.125rem;
-  /* border: 1px solid #ffd; */
+  border: 1px solid var(--primary-background-color);
   display: flex;align-items: center;
   gap: 10px;
+}
+
+.my_primary_btn:hover , .my_secondary_btn:hover{
+  border: 1px solid var(--primary-text-color);
 }
 
 .my_primary_btn a{
@@ -137,8 +148,10 @@ p{
   color: var(--secondary-text-color);
   font-weight: 600;
   font-size: 1.125rem;
-  border: 0px solid #ffd;
+  border: 1px solid var(--secondary-background-color);
 }
+
+
 
 .my_secondary_btn a{
   /* initial-value: unset; */
@@ -269,11 +282,111 @@ textarea{
 
 .wavinghand{
   position: absolute;
-  
+
 }
 @media (max-width:900px) {
   .flex-m-column{
     flex-direction: column;
   }
   
+}
+
+
+/* ----------- */
+.gradient_two{
+  background-color: #946263;
+  filter: blur(10rem);
+  -webkit-filter: blur(10rem);
+  border-radius: 9999px;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+  position: absolute;
+  top: -6rem;
+  right: 8rem;
+  /* z-index: 99; */
+  width: 34rem;
+  height: 31.25rem;
+  pointer-events: none;
+  
+}
+
+.gradient_one{
+  background-color: #676394;
+  filter: blur(10rem);
+  -webkit-filter: blur(10rem);
+  border-radius: 9999px;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+  left: -4rem;
+  width: 64rem;
+  height: 31.25rem;
+  top: -1rem;
+  position: absolute;
+  pointer-events: none;
+}
+.project_link{
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: .875rem;
+  text-align: left;
+  font-weight: 600;
+}
+.project_card{
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: var(--secondary-background-color);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -ms-transition: all .5s linear;
+  -o-transition: all .5s linear;
+}
+.project_card:hover{
+  transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  /*padding: 10px 15px;
+  *//*border-radius: 10px;
+  *//*background: rgb(103,99,148);
+  */background: linear-gradient(95deg, rgba(103,99,148,1) 15%, rgba(148,98,99,1) 66%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+.project_image{
+  width: 300px;
+  height: 300px;
+  /* position: absolute; */
+  left: 0;
+  z-index: 2;
+  object-fit: cover;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.capsule{
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: var(--secondary-text-color);
+  background-color: var(--primary-background-color);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }

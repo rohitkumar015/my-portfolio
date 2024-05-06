@@ -3,10 +3,10 @@ import { BiLogoTelegram } from "react-icons/bi";
 
 const Contact = () => {
   return (
-    <section className="mt-5 d-flex ">
+    <section className="mt-5 d-flex " id='contact'>
     <div className="max_width m-auto">
       <h2 className="primary_text_clr text-center mb-4">Contact</h2>
-      <p className='text-center fw-semibold secondary_text_clr'>Please contact me directly at <a href="" className='links'  ><i>prajapatirohit015@gmail.com</i></a> or through this form.</p>
+      <p className='text-center fw-semibold secondary_text_clr'>Please contact me directly at <a href="mailto:'prajapatirohit015@gmail.com" className='links'  ><i>prajapatirohit015@gmail.com</i></a> or through this form.</p>
       <div className='w-inherit'>
         <form action="" className='w-100'>
        <div className='row'>

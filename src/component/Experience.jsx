@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 const Experience = () => {
   return (
-    <section className="mt-5 d-flex justify-content-center">
+    <section className="mt-5 d-flex justify-content-center" id='experience'>
     <div className="max_width">
       <h2 className="primary_text_clr text-center mb-4">My Experience</h2>
       <div>

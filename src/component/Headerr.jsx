@@ -8,22 +8,22 @@ const Headerr = () => {
             <div className=''>
                 <ul className='list-unstyled d-flex gap-3 align-items-center m-0'>
                     <li className='m-0 p-0'>
-                        <span className=''>Home</span>
+                        <span className=''><a href="#home">Home</a></span>
                     </li>
                     <li className='m-0 p-0'>
-                        <span>About</span>
+                        <span ><a href="#about">About</a></span>
                     </li>
                     <li className='m-0 p-0'>
-                        <span>Projects</span>
+                        <span><a href="#project">Projects</a></span>
                     </li>
                     <li className='m-0 p-0'>
-                        <span>Skills</span>
+                        <span><a href="#skills">Skills</a></span>
                     </li>
                     <li className='m-0 p-0'>
-                        <span>Experince</span>
+                        <span><a href="#experience">Experience</a></span>
                     </li>
                     <li className='m-0 p-0'>
-                        <span>Contact</span>
+                        <span><a href="#contact">Contact</a></span>
                     </li>
                 </ul>
             </div>
