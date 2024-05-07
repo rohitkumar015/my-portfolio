@@ -40,12 +40,12 @@ const Introsection = () => {
                   </a>
                 </button>
                 <button className="my_secondary_btn btn">
-                  <span>
+                  <a href="">
                     Download resume{" "}
                     <TfiDownload
                       style={{ width: "25px", fontSize: "15px" }}
                     ></TfiDownload>
-                  </span>
+                  </a>
                 </button>
 
                 <Link to="https://www.linkedin.com/in/rohitkumar1255">
