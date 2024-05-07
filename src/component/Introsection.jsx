@@ -40,7 +40,7 @@ const Introsection = () => {
                   </a>
                 </button>
                 <button className="my_secondary_btn btn">
-                  <a href="">
+                  <a href="/images/rohitlatescv2024.pdf" download={true}>
                     Download resume{" "}
                     <TfiDownload
                       style={{ width: "25px", fontSize: "15px" }}
