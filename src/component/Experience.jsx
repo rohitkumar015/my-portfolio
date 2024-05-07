@@ -1,9 +1,4 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {
   return (
@@ -30,13 +25,15 @@ const Experience = () => {
                   <h3>Hyplap IT Solution Pvt Ltd </h3>
                   <p>Frontend Developer</p>
                   <p>
-                  Created and maintained web pages that are responsive using HTML, CSS, JavaScript, and Bootstrap for various clients and projects.
-Collaborated with backend developers , designers and tester to ensure high-quality web application and user experience.
-Debugged and fixed frontend issues using Chrome DevTools.
+                    Created and maintained web pages that are responsive using
+                    HTML, CSS, JavaScript, and Bootstrap for various clients and
+                    projects. Collaborated with backend developers , designers
+                    and tester to ensure high-quality web application and user
+                    experience. Debugged and fixed frontend issues using Chrome
+                    DevTools.
                   </p>
                 </div>
               </li>
-              
             </ul>
           </div>
         </div>
