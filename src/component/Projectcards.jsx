@@ -59,9 +59,9 @@ const Projectcards = () => {
 
           <div className="mt-5">
             <div className="d-flex align-items-center gap-3 flex-wrap">
-                <span className="capsule">
+                {/* <span className="capsule">
                     React
-                </span>
+                </span> */}
                 <span className="capsule">
                     JavaScript
                 </span>
