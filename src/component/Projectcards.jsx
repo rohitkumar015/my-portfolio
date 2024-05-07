@@ -49,7 +49,7 @@ const Projectcards = () => {
       <div className="row  overflow-hidden">
         <div className="col-lg-6 col-md-6 col-12">
           <h4 className="secondary_text_clr mt-2" style={{ textAlign: "left" }}>
-          Online Amdission System Management
+          Online Admission System Management
           </h4>
           <p className="secondary_text_clr mt-3" style={{ textAlign: "left" }}>
           I designed a website that can run and make the admission process easier a lot more effective and less time-consuming. The hassle of standing in a queue, submitting documents online, and booking the seat for the candidate would be erased.           </p>
