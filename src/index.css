@@ -201,7 +201,7 @@ h1{
 }
 
 .max_width{
-  max-width: 650px;
+  max-width: 750px;
   /* text-align: center; */
 }
 
@@ -215,6 +215,7 @@ h1{
   -o-border-radius: 7px;
   padding: .7rem 1.25rem;
   font-size: 1.08rem;
+  transition: all .2s linear;
 
 }
 
@@ -471,7 +472,14 @@ textarea{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-
+.skills_item:hover{
+  transition: all .2s linear;
+  background: linear-gradient(95deg, rgba(103,99,148,1) 15%, rgba(148,98,99,1) 66%);
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
 
 .project_image{
   width: 100%;
@@ -602,3 +610,12 @@ textarea{
   }
 }
 
+::-moz-selection { /* Code for Firefox */
+  /* color: red; */
+  background: #676394;
+}
+
+::selection {
+  /* color: red; */
+  background: #676394;
+}
