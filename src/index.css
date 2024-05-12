@@ -619,3 +619,11 @@ textarea{
   /* color: red; */
   background: #676394;
 }
+
+@media (max-width: 490px) 
+{
+  h1{
+    font-size: 1.5rem !important;
+  }
+  
+}
