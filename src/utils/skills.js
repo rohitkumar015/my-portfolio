@@ -1,3 +1,3 @@
 export  const skills=[
-    'HTML', 'CSS', 'JavaScript','Bootstrap', 'React','Angular','Java','MySql'
+    'HTML', 'CSS', 'JavaScript','Bootstrap', 'React','Redux','TypeScript','Angular','Java','MySql'
 ]
